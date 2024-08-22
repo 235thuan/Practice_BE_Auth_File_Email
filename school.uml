@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.courses</OriginalElement>
+  <nodes>
+    <node x="66.0" y="324.0">50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.role_permissions</node>
+    <node x="1022.75" y="298.0">50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.staffs</node>
+    <node x="884.1805555555557" y="868.0">50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.grades</node>
+    <node x="537.3194444444445" y="0.0">50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.users</node>
+    <node x="253.0" y="39.0">50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.roles</node>
+    <node x="523.0" y="311.0">50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.students</node>
+    <node x="777.625" y="324.0">50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.courses</node>
+    <node x="586.6805555555557" y="596.0">50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.student_course</node>
+    <node x="303.0" y="324.0">50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.user_roles</node>
+    <node x="864.6805555555557" y="596.0">50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.staff_course</node>
+    <node x="0.0" y="39.0">50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.permissions</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.students" target="50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.users" relationship="REFERENCES">
+      <point x="0.0" y="-111.0" />
+      <point x="629.0" y="273.0" />
+      <point x="637.3194444444445" y="273.0" />
+      <point x="0.0" y="124.0" />
+    </edge>
+    <edge source="50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.student_course" target="50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.courses" relationship="REFERENCES">
+      <point x="64.5" y="-111.0" />
+      <point x="780.1805555555557" y="571.0" />
+      <point x="879.625" y="571.0" />
+      <point x="0.0" y="98.0" />
+    </edge>
+    <edge source="50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.grades" target="50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.staff_course" relationship="REFERENCES">
+      <point x="0.0" y="-111.0" />
+      <point x="0.0" y="111.0" />
+    </edge>
+    <edge source="50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.staff_course" target="50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.courses" relationship="REFERENCES">
+      <point x="-59.75" y="-111.0" />
+      <point x="924.4305555555557" y="571.0" />
+      <point x="879.625" y="571.0" />
+      <point x="0.0" y="98.0" />
+    </edge>
+    <edge source="50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.role_permissions" target="50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.roles" relationship="REFERENCES">
+      <point x="50.5" y="-98.0" />
+      <point x="217.5" y="273.0" />
+      <point x="353.0" y="273.0" />
+      <point x="0.0" y="85.0" />
+    </edge>
+    <edge source="50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.student_course" target="50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.students" relationship="REFERENCES">
+      <point x="-64.5" y="-111.0" />
+      <point x="651.1805555555557" y="571.0" />
+      <point x="629.0" y="571.0" />
+      <point x="0.0" y="111.0" />
+    </edge>
+    <edge source="50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.user_roles" target="50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.roles" relationship="REFERENCES">
+      <point x="-50.0" y="-98.0" />
+      <point x="0.0" y="85.0" />
+    </edge>
+    <edge source="50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.user_roles" target="50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.users" relationship="REFERENCES">
+      <point x="50.0" y="-98.0" />
+      <point x="453.0" y="273.0" />
+      <point x="637.3194444444445" y="273.0" />
+      <point x="0.0" y="124.0" />
+    </edge>
+    <edge source="50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.staff_course" target="50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.staffs" relationship="REFERENCES">
+      <point x="59.75" y="-111.0" />
+      <point x="1043.9305555555557" y="571.0" />
+      <point x="1122.25" y="571.0" />
+      <point x="0.0" y="124.0" />
+    </edge>
+    <edge source="50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.role_permissions" target="50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.permissions" relationship="REFERENCES">
+      <point x="-50.5" y="-98.0" />
+      <point x="0.0" y="85.0" />
+    </edge>
+    <edge source="50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.staffs" target="50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.users" relationship="REFERENCES">
+      <point x="0.0" y="-124.0" />
+      <point x="1122.25" y="273.0" />
+      <point x="637.3194444444445" y="273.0" />
+      <point x="0.0" y="124.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8860360360360361" showDependencies="false" x="940.0464408609831" y="452.1265887137773" />
+  <SelectedNodes>
+    <node>50250166-c14a-4696-be8e-20b2c7e7b93d.TABLE:school.public.courses</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+

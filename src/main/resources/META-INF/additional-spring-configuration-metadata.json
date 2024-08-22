@@ -1,0 +1,34 @@
+{
+  "properties": [
+    {
+      "name": "jwt.secret",
+      "type": "java.lang.String",
+      "description": "Description for jwt.secret."
+    },
+    {
+      "name": "jwt.expiration",
+      "type": "java.lang.String",
+      "description": "Description for jwt.expiration."
+    },
+    {
+      "name": "listeners",
+      "type": "java.lang.String",
+      "description": "Description for listeners."
+    },
+    {
+      "name": "advertised.listeners",
+      "type": "java.lang.String",
+      "description": "Description for advertised.listeners."
+    },
+    {
+      "name": "file.storage.location",
+      "type": "java.lang.String",
+      "description": "Description for file.storage.location."
+    },
+    {
+      "name": "file.convert.location",
+      "type": "java.lang.String",
+      "description": "Description for file.convert.location."
+    }
+  ]
+}
